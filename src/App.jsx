@@ -125,7 +125,7 @@ function stopSorting(){
         </div>
         <div className="setter">
           <div id="alert-msg"></div>
-          <div className="box-container d-flex align-items-end gap-1 bg-dark rounded">
+          <div className="box-container d-flex align-items-end gap-1 bg-light rounded">
               {array.map((value,index) => (
                 <div id="box" key={index} style={{ height:`${value}px`}}></div>
               ))}
