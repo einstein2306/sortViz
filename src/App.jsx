@@ -101,11 +101,10 @@ function stopSorting(){
   return (
     <div>
       <div className="container">
-        <div>
+        <div className="bg-dark text-white p-1">
           <h1 className='text-center'>Sorting Algorithm Visualizer</h1>
-          <hr></hr>
         </div>
-        <div id="controller">
+        <div id="controller" className="mt-2">
           <div className="d-flex justify-content-left gap-2">
               <div className="dropdown">
                 <button className="btn btn-sm dropdown-toggle" style={{ backgroundColor: "#e9ecef" }} type="button" data-bs-toggle="dropdown">
