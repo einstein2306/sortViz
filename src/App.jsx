@@ -68,7 +68,7 @@ function stopSorting(){
       let alertBox = document.createElement("div");
       alertBox.className = "alert alert-warning alert-dismissible text-center  fade show small py-1 px-2";
       alertBox.role = "alert";
-      alertBox.innerHTML = "<strong>Warning:</strong> Please select an algorithm before start.";
+      alertBox.innerHTML = "<strong>Warning:</strong> Please select an algorithm.";
       let closeButton = document.createElement("button");
       closeButton.type = "button";
       closeButton.className = "btn-close p-2";
