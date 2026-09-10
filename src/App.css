@@ -1,0 +1,11 @@
+#box{
+    width:1.5%;
+    background-color:steelblue;
+}
+.box-container{
+    height:300px;
+    padding:0 5px 0 5px;
+}
+.setter{
+    margin-top:4%;
+}
